@@ -1,0 +1,26 @@
+# QSPICE schematic/symbol files are a proprietary format. Store the bytes
+# verbatim so git never rewrites line endings inside them.
+*.qsch  -text
+*.qsym  -text
+*.pfg   -text
+
+# Compiled behavioral models and other binaries.
+*.dll   binary
+*.qraw  binary
+*.qopraw binary
+*.gds   binary
+*.pdf   binary
+*.zip   binary
+
+# Plain text sources: normalize in the repo, check out native on Windows.
+*.cpp   text
+*.h     text
+*.v     text
+*.va    text
+*.spice text
+*.cdl   text
+*.md    text
+*.txt   text
+*.py    text
+*.csv   text
+*.tsv   text

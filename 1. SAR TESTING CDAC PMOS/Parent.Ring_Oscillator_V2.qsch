@@ -1,0 +1,12 @@
+ÿØÿÛ«schematic
+  «component (0,100) 0 0
+    «symbol
+      «shorted pins: false»
+      «rect (700,100) (2000,1100) 0 0 0 0xff0000 0xc8c8c8 -1 1 -1»
+      «text (1350,600) 1 12 0 0x1000000 -1 -1 "X1"»
+      «text (1350,1050) 0.681 13 0 0x1000000 -1 -1 "Ring_Oscillator_V2"»
+      «pin (2000,600) (0,0) 1 11 0 0x0 -1 "CLK"»
+    »
+  »
+»
+
