@@ -3,6 +3,10 @@
 # Old SAR-ADC repo, no longer in use. Has its own .git and a ~1.3 GB blob.
 SAR-ADC/
 
+# Local-only copy of "SAR TESTING 4-22-2026. Kinda Sorta Works", salvaged
+# from the retired SAR-ADC repo. Kept on disk for reference, never uploaded.
+OLD_SAR_ADC/
+
 # Public SkyWater PDK, unpacked from upstream (674 MB). Not vendored here.
 # Re-download: https://github.com/google/skywater-pdk-libs-sky130_fd_pr
 SKY130_PDK/
