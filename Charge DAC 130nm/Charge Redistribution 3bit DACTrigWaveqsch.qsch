@@ -76,7 +76,7 @@
       «ellipse (-55,150) (245,-150) 0 0 0 0x1000000 0x1000000 -1 -1»
       «text (-200,0) 1 15 0 0x1000000 -1 -1 "Ã1"»
       «text (-150,-100) 0.5 0 2 0x1000000 -1 -1 "MultGmAmp"»
-      «text (3350,-1850) 1 5 0 0x1000000 -1 -1 "Gm=1.2m Rout=2.5Meg VDSAT=0.15 CAPINCM=10f CAPINNM=10f ISRC=2.5m ISNK=2.5m VOS1=1m"»
+      «text (500,-3650) 1 5 0 0x1000000 -1 -1 "Gm=1.2m Rout=2.5Meg VDSAT=0.15 CAPINCM=10f CAPINNM=10f ISRC=2.5m ISNK=2.5m VOS1=1m"»
       «pin (-200,300) (0,0) 1 0 0 0x1000000 -1 "Vdd"»
       «pin (-200,-300) (0,0) 1 0 0 0x1000000 -1 "Vss"»
       «pin (400,0) (0,0) 1 15 0 0x1000000 -1 "OUT"»
@@ -1083,7 +1083,7 @@
   «text (-400,-7000) 1 7 0 0x1000000 -1 -1 "ï»¿.ic V(Vm) = 0"»
   «text (-2200,-7000) 1 7 0 0x1000000 -1 -1 "ï»¿.param Wn = 0.6"»
   «text (-2200,-7150) 1 7 0 0x1000000 -1 -1 "ï»¿.param Ln= 0.15"»
-  «text (6100,-6950) 1 7 0 0x1000000 -1 -1 "ï»¿.tran 0 65Âµ 0 10n"»
+  «text (6100,-6950) 1 7 0 0x1000000 -1 -1 "ï»¿.tran 0 50Âµ 0 10n"»
   «text (-400,-6850) 1 7 1 0x1000000 -1 -1 "ï»¿.meas TRAN V_check FIND V(vout) AT 560n"»
   «text (-400,-6700) 1 7 0 0x1000000 -1 -1 "ï»¿.ic V(Vout) = 0"»
   «text (-2150,-6550) 1 7 1 0x1000000 -1 -1 "ï»¿DAC PARAMS"»
@@ -1091,8 +1091,10 @@
   «text (3800,-6550) 1 7 1 0x1000000 -1 -1 "ï»¿STEP PARAMS"»
   «text (8650,-6550) 1 7 1 0x1000000 -1 -1 "ï»¿.step param Cx 800f 1200f 100f"»
   «text (9150,-6800) 1 7 0 0x1000000 -1 -1 "ï»¿.param Cx=1200f"»
-  «text (15840,-4430) 1 7 0 0x1000000 -1 -1 "ï»¿.ic V(vout)=0"»
+  «text (15740,-4930) 1 7 0 0x1000000 -1 -1 "ï»¿.ic V(vout)=0"»
   «text (-1550,-5550) 1 7 0 0x1000000 -1 -1 "ï»¿.libpath "C:\\Users\\tonic\\OneDrive\\Documentos\\QSPICE\\SKY130_PDK\\skywater-pdk-libs-sky130_fd_pr-main\\combined_models"\n.lib "sky130.lib.spice" tt"»
-  «text (15700,-4700) 1 7 0 0x1000000 -1 -1 "ï»¿.ic V(vo)=0"»
+  «text (15750,-5100) 1 7 0 0x1000000 -1 -1 "ï»¿.ic V(vo)=0"»
+  «text (-6550,-6550) 1 7 1 0x1000000 -1 -1 "ï»¿MEASUREMENT SCRIPTS"»
+  «text (-6600,-10300) 1 7 0 0x1000000 -1 -1 "ï»¿.meas tran s1_01 FIND V(vout) AT=1u\n.meas tran s1_02 FIND V(vout) AT=2.4u\n.meas tran s1_03 FIND V(vout) AT=3.7u\n.meas tran s1_04 FIND V(vout) AT=5u\n.meas tran s1_05 FIND V(vout) AT=6.4u\n.meas tran s1_06 FIND V(vout) AT=7.6u\n.meas tran s1_07 FIND V(vout) AT=9u\n.meas tran s1_08 FIND V(vout) AT=10.2u\n.meas tran s1_09 FIND V(vout) AT=11.5u\n\n.meas tran s2_01 FIND V(vout) AT=12.9u\n.meas tran s2_02 FIND V(vout) AT=14.1u\n.meas tran s2_03 FIND V(vout) AT=15.5u\n.meas tran s2_04 FIND V(vout) AT=16.6u\n.meas tran s2_05 FIND V(vout) AT=18u\n.meas tran s2_06 FIND V(vout) AT=19.3u\n.meas tran s2_07 FIND V(vout) AT=20.6u\n.meas tran s2_08 FIND V(vout) AT=21.9u\n.meas tran s2_09 FIND V(vout) AT=23.1u\n.meas tran s2_10 FIND V(vout) AT=24.5u\n.meas tran s2_11 FIND V(vout) AT=25.8u\n.meas tran s2_12 FIND V(vout) AT=27.1u\n\n.meas tran s3_01 FIND V(vout) AT=28.5u\n.meas tran s3_02 FIND V(vout) AT=29.7u\n.meas tran s3_03 FIND V(vout) AT=31u\n.meas tran s3_04 FIND V(vout) AT=32.2u\n.meas tran s3_05 FIND V(vout) AT=33.5u\n.meas tran s3_06 FIND V(vout) AT=34.9u\n.meas tran s3_07 FIND V(vout) AT=36.1u\n.meas tran s3_08 FIND V(vout) AT=37.4u\n.meas tran s3_09 FIND V(vout) AT=38.8u\n.meas tran s3_10 FIND V(vout) AT=40.1u\n.meas tran s3_11 FIND V(vout) AT=41.4u\n.meas tran s3_12 FIND V(vout) AT=42.6u\n.meas tran s3_13 FIND V(vout) AT=44u\n.meas tran s3_14 FIND V(vout) AT=45.2u\n.meas tran s3_15 FIND V(vout) AT=46.6u"»
 »
 
